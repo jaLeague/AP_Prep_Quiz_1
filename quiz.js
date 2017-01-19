@@ -1,6 +1,6 @@
 (function() {    var questions = [{
 question: "Consider the following code segment. <br><br>for (int k = 0; k < 20; k = k + 2)<br>{<br>	if (k % 3 == 1)<br>	{<br>		System.out.print(k + '' '');<br>	}<br>}<br><br>What is printed as a result of executing the code segment?",
-choices: ["4\t16", "4\t10\t16", "0	6	12	18", "1	4	7	10	13	16	19", "0	2	4	6	8	10	12	14	16	18"],
+choices: ["4\t\t16", "4\t\t10\t\t16", "0	6	12	18", "1	4	7	10	13	16	19", "0	2	4	6	8	10	12	14	16	18"],
 correctAnswer: 1
 }, {
 question: "Consider the following code segment.<br><br>List<String> animals = new ArrayList<String>();<br>animals.add(''dog'');<br>animals.add(''cat'');<br>animals.add(''snake'');<br>animals.set(2, ''lizard'');<br>animals.add(1, ''fish'');<br>animals.remove(3);<br>System.out.println(animals);<br><br>What is printed as a result of executing the code segment?",
